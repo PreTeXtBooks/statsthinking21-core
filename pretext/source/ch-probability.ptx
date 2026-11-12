@@ -86,7 +86,7 @@ sampDf %&gt;%
 
       <figure xml:id="fig-election-results">
         <caption>Left: A demonstration of the law of large numbers. A coin was flipped 30,000 times, and after each flip the probability of heads was computed based on the number of heads and tail collected up to that point. It takes about 15,000 flips for the probability to settle at the true probability of 0.5. Right: Relative proportion of the vote in the Dec 12, 2017 special election for the US Senate seat in Alabama, as a function of the percentage of precincts reporting. These data were transcribed from https://www.ajc.com/news/national/alabama-senate-race-live-updates-roy-moore-doug-jones/KPRfkdaweoiXICW3FHjXqI/.</caption>
-        <image source="ElectionResults-1.png" width="80%">
+        <image source="images/ElectionResults-1.png" width="80%">
           <description>Two-panel figure. Left panel shows estimated probability of heads converging toward 0.5 across 30,000 simulated coin flips. Right panel shows vote share trajectories for Doug Jones and Roy Moore as Alabama precincts reported in the 2017 special Senate election.</description>
         </image>
       </figure>
@@ -164,7 +164,7 @@ sampDf %&gt;%
       </md>
       <figure xml:id="fig-throw-matrix">
         <caption>Each cell in this matrix represents one outcome of two throws of a die, with the columns representing the first throw and the rows representing the second throw. Cells shown in red represent the cells with a six in either the first or second throw; the rest are shown in blue.</caption>
-        <image source="ThrowMatrix-1.png" width="50%">
+        <image source="images/ThrowMatrix-1.png" width="50%">
           <description>A 6 by 6 matrix of die outcomes for two throws. Cells corresponding to at least one six are highlighted in red, and all other cells are blue.</description>
         </image>
       </figure>
@@ -309,7 +309,7 @@ sampDf %&gt;%
     </p>
     <figure xml:id="fig-conditional-probability">
       <caption>A graphical depiction of conditional probability, showing how the conditional probability limits our analysis to a subset of the data.</caption>
-      <image source="conditional_probability.png" width="80%">
+      <image source="images/conditional_probability.png" width="80%">
         <description>A flow-chart style diagram showing a full voting population split into Republicans and Democrats and then split again by vote choice, illustrating conditional probability.</description>
       </image>
     </figure>

@@ -53,7 +53,7 @@
 
     <figure xml:id="fig-pure-death-satfat">
       <caption>A plot of data from the PURE study, showing the relationship between death from any cause and the relative intake of saturated fats and carbohydrates.</caption>
-      <image source="PureDeathSatFat.png" width="50%">
+      <image source="images/PureDeathSatFat.png" width="50%">
         <description>A line graph showing relative risk of dying from any cause across quintiles of nutrient intake. Two lines are shown: one for carbohydrates (increasing from 1.0 to 1.28) and one for saturated fat (decreasing from 1.0 to 0.86). The x-axis shows quintiles 1-5, and the y-axis shows relative risk with a dashed line at 1.0.</description>
       </image>
     </figure>

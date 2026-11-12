@@ -63,7 +63,7 @@
 
     <figure xml:id="fig-chisq-dist">
       <caption>Left: Examples of the chi-squared distribution for various degrees of freedom. Right: Simulation of sum of squared random normal variables. The histogram is based on the sum of squares of 50,000 sets of 8 random normal variables; the dotted line shows the values of the theoretical chi-squared distribution with 8 degrees of freedom.</caption>
-      <image source="chisqDist.png" width="80%">
+      <image source="images/chisqDist.png" width="80%">
         <description>Two panel figure. Left panel shows curves of chi-squared distributions with different degrees of freedom (1, 2, 4, 8). Right panel shows a histogram of simulated data matching the theoretical chi-squared distribution with 8 degrees of freedom.</description>
       </image>
     </figure>

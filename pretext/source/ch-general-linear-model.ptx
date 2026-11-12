@@ -27,7 +27,7 @@
 
     <figure xml:id="fig-studytime-grades">
       <caption>Relation between study time and grades</caption>
-      <image source="StudytimeGrades.png" width="50%">
+      <image source="images/StudytimeGrades.png" width="50%">
         <description>A scatter plot showing the relationship between study time (in hours) on the x-axis and grade (in percent) on the y-axis. The plot shows a positive relationship with grades ranging from about 70 to 100 and study time from 0 to 5 hours.</description>
       </image>
     </figure>
@@ -89,7 +89,7 @@
 
     <figure xml:id="fig-linear-regression">
       <caption>The linear regression solution for the study time data is shown in the solid line. The value of the intercept is equivalent to the predicted value of the y variable when the x variable is equal to zero; this is shown with a dotted line. The value of beta is equal to the slope of the line-that is, how much y changes for a unit change in x. This is shown schematically in the dashed lines, which show the degree of increase in grade for a single unit increase in study time.</caption>
-      <image source="LinearRegression.png" width="50%">
+      <image source="images/LinearRegression.png" width="50%">
         <description>A scatter plot with a fitted regression line showing the relationship between study time and grades. The plot includes a dotted horizontal line at the intercept and dashed lines showing the slope of the relationship.</description>
       </image>
     </figure>
@@ -293,7 +293,7 @@
 
     <figure xml:id="fig-linear-regression-priorclass">
       <caption>The relation between study time and grade including prior experience as an additional component in the model. The solid line relates study time to grades for students who have not had prior experience, and the dashed line relates grades to study time for students with prior experience. The dotted line corresponds to the difference in means between the two groups.</caption>
-      <image source="LinearRegressionByPriorClass.png" width="50%">
+      <image source="images/LinearRegressionByPriorClass.png" width="50%">
         <description>A scatter plot showing the relationship between study time and grades with two groups distinguished by whether students had prior experience. Two parallel regression lines are shown, one solid for no prior class and one dashed for prior class, with a dotted vertical line showing the difference between groups.</description>
       </image>
     </figure>
@@ -389,7 +389,7 @@
 
     <figure xml:id="fig-caffeine-anxiety-interaction">
       <caption>A: The relationship between caffeine and public speaking. B: The relationship between caffeine and public speaking, with anxiety represented by the shape of the data points. C: The relationship between public speaking and caffeine, including an interaction with anxiety. This results in two lines that separately model the slope for each group (dashed for anxious, dotted for non-anxious).</caption>
-      <image source="CaffeineAnxietyInteraction.png" width="80%">
+      <image source="images/CaffeineAnxietyInteraction.png" width="80%">
         <description>A three-panel figure showing: A) scatter plot of caffeine vs speaking with no clear pattern, B) same scatter plot with points marked by anxiety status showing divergent patterns, C) scatter plot with two fitted regression lines showing opposite slopes for anxious (dashed) vs non-anxious (dotted) groups.</description>
       </image>
     </figure>
@@ -460,7 +460,7 @@ plot_grid(p1,p2)
 </program>
     <figure xml:id="fig-qqplots">
       <caption>Q-Q plots of normal (left) and non-normal (right) data. The line shows the point at which the x and y axes are equal.</caption>
-      <image source="qqplots.png" width="80%">
+      <image source="images/qqplots.png" width="80%">
         <description>Two Q-Q plots side by side. The left plot shows points closely following a diagonal line, indicating normal data. The right plot shows points deviating from the diagonal line in an S-shaped pattern, indicating non-normal data.</description>
       </image>
     </figure>
@@ -519,7 +519,7 @@ plot_grid(p1,p2)
 
       <figure xml:id="fig-crossvalidation">
         <caption>A schematic of the cross-validation procedure.</caption>
-        <image source="crossvalidation.png" width="30%">
+        <image source="images/crossvalidation.png" width="30%">
           <description>A diagram showing how data is split into multiple folds, with each fold taking turns as the test set while the remaining folds form the training set. This process is repeated for each fold.</description>
         </image>
       </figure>
@@ -635,7 +635,7 @@ df_matrix &lt;-
 
       <figure xml:id="fig-glm-matrix">
         <caption>A depiction of the linear model for the study time data in terms of matrix algebra.</caption>
-        <image source="glm_matrix.png" width="50%">
+        <image source="images/glm_matrix.png" width="50%">
           <description>A diagram showing the matrix representation of the general linear model, with the Y vector on the left, the design matrix X in the middle, the beta parameter vector, and the error vector on the right, all connected by multiplication and addition symbols.</description>
         </image>
       </figure>

@@ -114,7 +114,7 @@
 
       <figure xml:id="fig-reliability-validity">
         <caption>A figure demonstrating the distinction between reliability and validity, using shots at a bullseye. Reliability refers to the consistency of location of shots, and validity refers to the accuracy of the shots with respect to the center of the bullseye.</caption>
-        <image source="ReliabilityValidity.png" width="60%">
+        <image source="images/ReliabilityValidity.png" width="60%">
           <description>A four-panel figure showing dots representing shots at a bullseye target with concentric red circles. Panel A (Reliable and valid) shows tightly clustered dots at the center. Panel B (Unreliable but valid) shows scattered dots centered around the bullseye. Panel C (Reliable but invalid) shows tightly clustered dots offset from center. Panel D (Unreliable and invalid) shows scattered dots offset from center.</description>
         </image>
       </figure>

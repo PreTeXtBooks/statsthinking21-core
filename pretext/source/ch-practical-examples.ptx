@@ -51,7 +51,7 @@
       <figure xml:id="fig-atoz-bmi-change">
         <caption>Box plots for each condition, with the 50th percentile (i.e. the median) shown as a black line for each group.</caption>
         <!-- Note: This figure would be generated from R code showing BMI changes across diet groups -->
-        <image source="AtoZBMIChangeDensity.png" width="50%">
+        <image source="images/AtoZBMIChangeDensity.png" width="50%">
           <description>Box plots showing the distribution of BMI changes at 12 months for four diet groups: Atkins, LEARN, Ornish, and Zone. Each box shows the median and quartiles, with some outliers visible as individual points.</description>
         </image>
       </figure>
@@ -145,7 +145,7 @@
       <figure xml:id="fig-residual-plot">
         <caption>Distribution of residuals for each condition</caption>
         <!-- Note: This figure would be generated from R code showing residual distributions -->
-        <image source="residualPlot.png" width="50%">
+        <image source="images/residualPlot.png" width="50%">
           <description>Density plots showing the distribution of residuals from the linear model for each of the four diet groups. The distributions appear similar across groups.</description>
         </image>
       </figure>
@@ -157,7 +157,7 @@
       <figure xml:id="fig-diagnostic-qq-plot">
         <caption>Q-Q plot of actual residual values against theoretical residual values</caption>
         <!-- Note: This figure would be generated from R code showing Q-Q plot -->
-        <image source="diagnosticQQPlot.png" width="50%">
+        <image source="images/diagnosticQQPlot.png" width="50%">
           <description>Q-Q plot comparing the distribution of model residuals to the normal distribution. Most points fall along the diagonal line, with some deviation at the extremes.</description>
         </image>
       </figure>

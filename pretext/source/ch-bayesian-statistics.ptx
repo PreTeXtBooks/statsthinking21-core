@@ -19,7 +19,7 @@
 
     <figure xml:id="fig-generative-model">
       <caption>A schematic of the idea of a generative model.</caption>
-      <image source="BayesianInference.png" width="80%">
+      <image source="images/BayesianInference.png" width="80%">
         <description>A diagram showing how a latent process generates observed data through sampling.</description>
       </image>
     </figure>
@@ -151,7 +151,7 @@
 
       <figure xml:id="fig-like2">
         <caption>Likelihood of each possible number of responders under several different hypotheses (p(respond)=0.5 (solid), 0.7 (dotted), 0.3 (dashed). Observed value shown in the vertical line</caption>
-        <image source="like2.png" width="50%">
+        <image source="images/like2.png" width="50%">
           <description>A plot showing likelihood curves for different values of p(respond), with a vertical line at the observed value of 64 responders.</description>
         </image>
       </figure>
@@ -172,7 +172,7 @@
 
       <figure xml:id="fig-posterior-dist">
         <caption>Posterior probability distribution for the observed data plotted in solid line against uniform prior distribution (dotted line). The maximum a posteriori (MAP) value is signified by the diamond symbol.</caption>
-        <image source="posteriorDist.png" width="50%">
+        <image source="images/posteriorDist.png" width="50%">
           <description>A plot showing the posterior distribution as a solid line and the uniform prior as a dotted line, with a diamond marker at the peak of the posterior.</description>
         </image>
       </figure>
@@ -212,7 +212,7 @@
 
       <figure xml:id="fig-posterior-dist-prior">
         <caption>A: Effects of priors on the posterior distribution. The original posterior distribution based on a flat prior is plotted in blue. The prior based on the observation of 10 responders out of 20 people is plotted in the dotted black line, and the posterior using this prior is plotted in red. B: Effects of the strength of the prior on the posterior distribution. The blue line shows the posterior obtained using the prior based on 50 heads out of 100 people. The dotted black line shows the prior based on 250 heads out of 500 flips, and the red line shows the posterior based on that prior. C: Effects of the strength of the prior on the posterior distribution. The blue line shows the posterior obtained using an absolute prior which states that p(respond) is 0.8 or greater. The prior is shown in the dotted black line.</caption>
-        <image source="posteriorDistPrior.png" width="80%">
+        <image source="images/posteriorDistPrior.png" width="80%">
           <description>Three panels showing how different priors affect the posterior distribution, demonstrating weak, strong, and absolute priors.</description>
         </image>
       </figure>
@@ -272,7 +272,7 @@
 
       <figure xml:id="fig-bayes-testing">
         <caption>Box plots showing data for drug and placebo groups.</caption>
-        <image source="bayesTesting.png" width="50%">
+        <image source="images/bayesTesting.png" width="50%">
           <description>Box plots comparing the change in hemoglobin A1C between drug and placebo groups, with a dotted line at zero.</description>
         </image>
       </figure>
@@ -426,7 +426,7 @@
 
       <figure xml:id="fig-rejection-sampling">
         <caption>Rejection sampling example. The black line shows the density of all possible values of p(respond); the blue lines show the 2.5th and 97.5th percentiles of the distribution, which represent the 95 percent credible interval for the estimate of p(respond).</caption>
-        <image source="rejectionSampling.png" width="50%">
+        <image source="images/rejectionSampling.png" width="50%">
           <description>A density plot showing the distribution of accepted samples with vertical blue lines marking the credible interval boundaries.</description>
         </image>
       </figure>

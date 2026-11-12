@@ -126,7 +126,7 @@ sampMeans_df %&gt;%
 
     <figure xml:id="fig-sample-plot">
       <caption>The blue histogram shows the sampling distribution of the mean over 5000 random samples from the NHANES dataset. The histogram for the full dataset is shown in gray for reference. The vertical line indicates the population mean.</caption>
-      <image source="samplePlot.png" width="80%">
+      <image source="images/samplePlot.png" width="80%">
         <description>A histogram showing two distributions: the gray histogram shows the distribution of height in the full NHANES adult dataset, while the blue histogram shows the sampling distribution of the mean over 5000 random samples of size 50. The sampling distribution is much narrower than the population distribution and is centered around the population mean, shown by a vertical line at 168.35 cm.</description>
       </image>
     </figure>
@@ -167,7 +167,7 @@ sampMeans_df %&gt;%
 
     <figure xml:id="fig-alcohol-dist-50">
       <caption>Left: Distribution of the variable AlcoholYear in the NHANES dataset, which reflects the number of days that the individual drank in a year. Right: The sampling distribution of the mean for AlcoholYear in the NHANES dataset, obtained by drawing repeated samples of size 50, in blue. The normal distribution with the same mean and standard deviation is shown in red.</caption>
-      <image source="alcDist50.png" width="80%">
+      <image source="images/alcDist50.png" width="80%">
         <description>Two side-by-side plots. The left plot shows a highly right-skewed distribution of AlcoholYear values from the NHANES dataset, with most values near zero and a long tail extending to the right. The right plot shows a nearly normal (bell-shaped) sampling distribution of the mean AlcoholYear values, shown in blue, with a fitted normal curve overlaid in red. This demonstrates the Central Limit Theorem in action.</description>
       </image>
     </figure>

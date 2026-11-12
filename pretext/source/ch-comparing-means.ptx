@@ -121,7 +121,7 @@ One simple way to test for this difference is using a test called the sign test,
     
     <figure xml:id="fig-pot-tv-violin">
       <caption>Left: Violin plot showing distributions of TV watching separated by regular marijuana use. Right: Violin plots showing data for each group, with a dotted line connecting the predicted values for each group, computed on the basis of the results of the linear model.</caption>
-      <image source="PotTVViolin.png" width="80%">
+      <image source="images/PotTVViolin.png" width="80%">
         <description>Two side-by-side violin plots showing TV watching hours distribution for regular marijuana users vs non-users, with the right plot including a dotted line connecting group means.</description>
       </image>
     </figure>
@@ -257,7 +257,7 @@ One simple way to test for this difference is using a test called the sign test,
     
     <figure xml:id="fig-bp-measurements">
       <caption>Left: Violin plot of systolic blood pressure on first and second recording, from NHANES. Right: Same violin plot with lines connecting the two data points for each individual.</caption>
-      <image source="BPfig.png" width="80%">
+      <image source="images/BPfig.png" width="80%">
         <description>Two side-by-side violin plots showing systolic blood pressure measurements at two time points, with the right plot showing lines connecting paired measurements for each individual.</description>
       </image>
     </figure>
@@ -290,7 +290,7 @@ This analysis shows no significant difference. However, this analysis is inappro
     
     <figure xml:id="fig-bp-diff-hist">
       <caption>Histogram of difference scores between first and second BP measurement. The vertical line represents the mean difference in the sample.</caption>
-      <image source="BPDiffHist.png" width="50%">
+      <image source="images/BPDiffHist.png" width="50%">
         <description>A histogram showing the distribution of blood pressure differences between measurements, with a vertical blue line marking the mean difference.</description>
       </image>
     </figure>
@@ -383,7 +383,7 @@ This analysis shows no significant difference. However, this analysis is inappro
     
     <figure xml:id="fig-drug-trial">
       <caption>Box plots showing blood pressure for three different groups in our clinical trial.</caption>
-      <image source="DrugTrial.png" width="50%">
+      <image source="images/DrugTrial.png" width="50%">
         <description>Box plots comparing systolic blood pressure across three groups: placebo, drug 1, and drug 2.</description>
       </image>
     </figure>
@@ -412,7 +412,7 @@ This analysis shows no significant difference. However, this analysis is inappro
       
       <figure xml:id="fig-f-dist">
         <caption>F distributions under the null hypothesis, for different values of degrees of freedom.</caption>
-        <image source="FDist.png" width="50%">
+        <image source="images/FDist.png" width="50%">
           <description>Curves showing F distributions with different degrees of freedom parameters, demonstrating their shapes under the null hypothesis.</description>
         </image>
       </figure>

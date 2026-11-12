@@ -28,7 +28,7 @@
 
     <figure xml:id="fig-hate-crime-gini">
       <caption>Plot of rates of hate crimes vs. Gini index.</caption>
-      <image source="hateCrimeGini.png" width="75%">
+      <image source="images/hateCrimeGini.png" width="75%">
         <description>A scatter plot showing the relationship between Gini index (x-axis, ranging from 0.4 to 0.55) and average hate crimes per 100K population from FBI data (y-axis). Each point represents a U.S. state labeled with its two-letter abbreviation. The plot shows a generally positive trend.</description>
       </image>
     </figure>
@@ -148,7 +148,7 @@
 
       <figure xml:id="fig-shuffle-corr">
         <caption>Histogram of correlation values under the null hypothesis, obtained by shuffling values. Observed value is denoted by blue line.</caption>
-        <image source="shuffleCorr.png" width="50%">
+        <image source="images/shuffleCorr.png" width="50%">
           <description>A histogram showing the distribution of correlation coefficients from shuffled data. The distribution is centered near zero and roughly bell-shaped. A blue vertical line marks the observed correlation value in the right tail of the distribution, with a p-value of approximately 0.004.</description>
         </image>
       </figure>
@@ -166,7 +166,7 @@
 
       <figure xml:id="fig-outlier-corr">
         <caption>A simulated example of the effects of outliers on correlation. Without the outlier the remainder of the datapoints have a perfect negative correlation, but the single outlier changes the correlation value to highly positive.</caption>
-        <image source="outlierCorr.png" width="50%">
+        <image source="images/outlierCorr.png" width="50%">
           <description>A scatter plot showing ten points. Nine points form a perfect negative linear relationship, but one extreme outlier point in the upper right changes the overall correlation from -1.0 to 0.85.</description>
         </image>
       </figure>
@@ -219,14 +219,14 @@
 
       <figure xml:id="fig-simple-causal-graph">
         <caption>A graph showing causal relationships between three variables: study time, exam grades, and exam finishing time. A green arrow represents a positive relationship (i.e. more study time causes exam grades to increase), and a red arrow represents a negative relationship (i.e. more study time causes faster completion of the exam).</caption>
-        <image source="dag_example.png" width="50%">
+        <image source="images/dag_example.png" width="50%">
           <description>A directed acyclic graph showing three circular nodes: Study Time at the top, with green arrow pointing to Exam Grade (positive effect) and red arrow pointing to Finishing Time (negative effect).</description>
         </image>
       </figure>
 
       <figure xml:id="fig-latent-causal-graph">
         <caption>A graph showing the same causal relationships as above, but now also showing the latent variable (knowledge) using a square box.</caption>
-        <image source="dag_latent_example.png" width="50%">
+        <image source="images/dag_latent_example.png" width="50%">
           <description>A directed acyclic graph similar to the previous one, but with an additional square node labeled Knowledge mediating between Study Time and the outcomes (Exam Grade and Finishing Time).</description>
         </image>
       </figure>
@@ -277,7 +277,7 @@
 
       <figure xml:id="fig-gini-lorenz">
         <caption>Lorenz curves for A) perfect equality, B) normally distributed income, and C) high inequality (equal income except for one very wealthy individual).</caption>
-        <image source="gini0.png" width="80%">
+        <image source="images/gini0.png" width="80%">
           <description>Three panels showing Lorenz curves. Panel A shows a straight diagonal line (Gini=0) representing perfect equality. Panel B shows a curved line (Gini=0.09) for normally distributed income. Panel C shows a highly curved line (Gini=0.90) representing extreme inequality with one wealthy outlier.</description>
         </image>
       </figure>
