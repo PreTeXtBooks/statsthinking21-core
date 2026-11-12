@@ -328,7 +328,7 @@ This test shows that there is a strong relationship between depression and sleep
 </output></console>
 
 <p>
-Here we see that the Bayes factor is very large (<m>1.8∗10^{35}</m>), showing that the evidence in favor of a relation between depression and sleep problems is very strong.
+Here we see that the Bayes factor is very large (<m>1.8 	imes 10^{35}</m>), showing that the evidence in favor of a relation between depression and sleep problems is very strong.
 </p>
 
   </section>

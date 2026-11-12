@@ -338,14 +338,14 @@ Although in this example we know the actual clusters (that is, the continents of
       </p>
       <me>
         \begin{array}{lcl}
-        nback \amp = \amp beta_{[1, 1]} * WM + \beta_{[1, 2]} * FR + \beta_{[1, 3]} * IMP  + \epsilon \\
-        dspan \amp = \amp beta_{[2, 1]} * WM + \beta_{[2, 2]} * FR + \beta_{[2, 3]} * IMP  + \epsilon \\
-        ospan \amp = \amp beta_{[3, 1]} * WM + \beta_{[3, 2]} * FR + \beta_{[3, 3]} * IMP  + \epsilon \\
-        ravens \amp = \amp beta_{[4, 1]} * WM + \beta_{[4, 2]} * FR + \beta_{[4, 3]} * IMP   + \epsilon \\
-        crt \amp = \amp beta_{[5, 1]} * WM + \beta_{[5, 2]} * FR + \beta_{[5, 3]} * IMP   + \epsilon \\
-        UPPS \amp = \amp beta_{[6, 1]} * WM + \beta_{[6, 2]} * FR + \beta_{[6, 3]} * IMP   + \epsilon \\
-        BIS11 \amp = \amp beta_{[7, 1]} * WM + \beta_{[7, 2]} * FR + \beta_{[7, 3]} * IMP  + \epsilon \\
-        dickman \amp = \amp beta_{[8, 1]} * WM + \beta_{[8, 2]} * FR + \beta_{[8, 3]} * IMP   + \epsilon \\
+        nback \amp = \amp \beta_{[1, 1]} * WM + \beta_{[1, 2]} * FR + \beta_{[1, 3]} * IMP  + \epsilon \\
+        dspan \amp = \amp \beta_{[2, 1]} * WM + \beta_{[2, 2]} * FR + \beta_{[2, 3]} * IMP  + \epsilon \\
+        ospan \amp = \amp \beta_{[3, 1]} * WM + \beta_{[3, 2]} * FR + \beta_{[3, 3]} * IMP  + \epsilon \\
+        ravens \amp = \amp \beta_{[4, 1]} * WM + \beta_{[4, 2]} * FR + \beta_{[4, 3]} * IMP   + \epsilon \\
+        crt \amp = \amp \beta_{[5, 1]} * WM + \beta_{[5, 2]} * FR + \beta_{[5, 3]} * IMP   + \epsilon \\
+        UPPS \amp = \amp \beta_{[6, 1]} * WM + \beta_{[6, 2]} * FR + \beta_{[6, 3]} * IMP   + \epsilon \\
+        BIS11 \amp = \amp \beta_{[7, 1]} * WM + \beta_{[7, 2]} * FR + \beta_{[7, 3]} * IMP  + \epsilon \\
+        dickman \amp = \amp \beta_{[8, 1]} * WM + \beta_{[8, 2]} * FR + \beta_{[8, 3]} * IMP   + \epsilon \\
         \end{array}
       </me>
       <p>
