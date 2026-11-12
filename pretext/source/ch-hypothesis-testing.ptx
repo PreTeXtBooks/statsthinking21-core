@@ -174,7 +174,7 @@ ggplot(NHANES_sample, aes(PhysActive, BMI)) +
 
       <figure xml:id="fig-bmi-sample">
         <caption>Box plot of BMI data from a sample of adults from the NHANES dataset, split by whether they reported engaging in regular physical activity.</caption>
-        <image source="bmi_boxplot.png" width="50%">
+        <image source="images/bmi_boxplot.png" width="50%">
           <description>A box plot showing BMI distributions for physically active and inactive individuals. The inactive group shows a higher median BMI and greater variability compared to the active group.</description>
         </image>
       </figure>
@@ -206,7 +206,7 @@ ggplot(NHANES_sample, aes(PhysActive, BMI)) +
 
       <figure xml:id="fig-t-versus-normal">
         <caption>Each panel shows the t distribution (in blue dashed line) overlaid on the normal distribution (in solid red line). The left panel shows a t distribution with 4 degrees of freedom, in which case the distribution is similar but has slightly wider tails. The right panel shows a t distribution with 1000 degrees of freedom, in which case it is virtually identical to the normal.</caption>
-        <image source="t_versus_normal.png" width="75%">
+        <image source="images/t_versus_normal.png" width="75%">
           <description>Two side-by-side plots comparing t distributions to normal distributions. The left plot shows a t distribution with 4 degrees of freedom that has noticeably wider tails than the normal distribution. The right plot shows a t distribution with 1000 degrees of freedom that is nearly identical to the normal distribution.</description>
         </image>
       </figure>
@@ -266,7 +266,7 @@ ggplot(data.frame(coinFlips), aes(coinFlips)) +
 
         <figure xml:id="fig-coin-flips">
           <caption>Distribution of numbers of heads (out of 100 flips) across 100,000 simulated runs with the observed value of 70 flips represented by the vertical line.</caption>
-          <image source="coin_flips_histogram.png" width="50%">
+          <image source="images/coin_flips_histogram.png" width="50%">
             <description>A histogram showing the distribution of the number of heads in 100,000 simulations of 100 coin flips. The distribution is centered around 50 heads and appears roughly normal. A vertical red line at 70 heads shows the observed value, which is in the far right tail of the distribution.</description>
           </image>
         </figure>
@@ -374,7 +374,7 @@ ggplot(data.frame(coinFlips), aes(coinFlips)) +
 
         <figure xml:id="fig-squat-boxplot">
           <caption>Left: Box plots of simulated squatting ability for football players and cross-country runners. Right: Box plots for subjects assigned to each group after scrambling group labels.</caption>
-          <image source="squat_boxplot.png" width="75%">
+          <image source="images/squat_boxplot.png" width="75%">
             <description>Two side-by-side box plots. The left panel shows a clear difference between FB (higher median around 310 lbs) and XC (lower median around 145 lbs) groups. The right panel shows the same data after shuffling, with much more similar distributions between groups.</description>
           </image>
         </figure>
@@ -406,7 +406,7 @@ ggplot(data.frame(coinFlips), aes(coinFlips)) +
 
         <figure xml:id="fig-shuffle-hist">
           <caption>Histogram of t-values for the difference in means between the football and cross-country groups after randomly shuffling group membership. The vertical line denotes the actual difference observed between the two groups, and the dotted line shows the theoretical t distribution for this analysis.</caption>
-          <image source="shuffle_histogram.png" width="50%">
+          <image source="images/shuffle_histogram.png" width="50%">
             <description>A histogram showing the distribution of t-values from 10,000 randomized shuffles. The distribution is roughly normal and centered around zero. A vertical red line at t=7.78 shows the observed value, which is far in the right tail. A dotted line overlays the theoretical t distribution.</description>
           </image>
         </figure>
@@ -424,7 +424,7 @@ ggplot(data.frame(coinFlips), aes(coinFlips)) +
 
         <figure xml:id="fig-sim-diff">
           <caption>Histogram of t statistics after shuffling of group labels, with the observed value of the t statistic shown in the vertical line, and values at least as extreme as the observed value shown in lighter gray</caption>
-          <image source="sim_diff_histogram.png" width="50%">
+          <image source="images/sim_diff_histogram.png" width="50%">
             <description>A histogram showing the distribution of t statistics from 5000 randomizations of the BMI data. The distribution is centered around zero. A vertical blue line shows the observed t statistic around 3, with the region beyond it shaded in light gray to indicate the p-value.</description>
           </image>
         </figure>
@@ -539,7 +539,7 @@ ggplot(data.frame(coinFlips), aes(coinFlips)) +
 
       <figure xml:id="fig-sig-results">
         <caption>The proportion of significant results for a very small change (1 ounce, which is about .001 standard deviations) as a function of sample size.</caption>
-        <image source="sig_results_sample_size.png" width="75%">
+        <image source="images/sig_results_sample_size.png" width="75%">
           <description>A line plot showing how the proportion of significant results increases with sample size on a log scale. The x-axis shows sample sizes from 32 to 131,072 per group on a log2 scale. The y-axis shows proportion of significant results from 0 to 1. The line starts near 0.05 at small sample sizes and increases sigmoidally, reaching above 0.9 at the largest sample sizes. A horizontal dashed line at 0.05 indicates the nominal alpha level.</description>
         </image>
       </figure>
@@ -564,7 +564,7 @@ ggplot(data.frame(coinFlips), aes(coinFlips)) +
 
     <figure xml:id="fig-null-sim">
       <caption>Left: A histogram of the number of significant results in each set of one million statistical tests, when there is in fact no true effect. Right: A histogram of the number of significant results across all simulation runs after applying the Bonferroni correction for multiple tests.</caption>
-      <image source="null_simulation_histogram.png" width="75%">
+      <image source="images/null_simulation_histogram.png" width="75%">
         <description>Two side-by-side histograms. The left panel shows a distribution of the number of significant results centered around 50,000 out of 1 million tests. The right panel shows a distribution centered very close to zero after Bonferroni correction is applied.</description>
       </image>
     </figure>

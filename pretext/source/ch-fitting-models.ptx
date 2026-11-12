@@ -65,7 +65,7 @@ NHANES_child %&gt;%
 
     <figure xml:id="fig-child-height">
       <caption>Histogram of height of children in NHANES.</caption>
-      <image source="childHeight.png" width="50%">
+      <image source="images/childHeight.png" width="50%">
         <description>A histogram showing the distribution of heights for children in the NHANES dataset. The distribution appears roughly bell-shaped with heights ranging from about 75 to 200 cm.</description>
       </image>
     </figure>
@@ -109,7 +109,7 @@ NHANES_child %&gt;%
 
     <figure xml:id="fig-mean-error">
       <caption>Distribution of errors from the mean.</caption>
-      <image source="meanError.png" width="50%">
+      <image source="images/meanError.png" width="50%">
         <description>A histogram showing the distribution of errors when predicting height with the mean. The distribution is centered at zero and ranges from about -60 to 60 cm.</description>
       </image>
     </figure>
@@ -132,7 +132,7 @@ NHANES_child %&gt;%
 
       <figure xml:id="fig-child-height-line">
         <caption>Height of children in NHANES, plotted without a model (A), with a linear model including only age (B) or age and a constant (C), and with a linear model that fits separate effects of age for males and females (D).</caption>
-        <image source="childHeightLine.png" width="80%">
+        <image source="images/childHeightLine.png" width="80%">
           <description>Four panels showing scatter plots of children's height vs age. Panel A shows raw data. Panel B shows data with a line through the origin. Panel C shows data with a fitted line with intercept. Panel D shows data with separate lines for males and females.</description>
         </image>
       </figure>
@@ -167,7 +167,7 @@ NHANES_child %&gt;%
 
       <figure xml:id="fig-mse-plot">
         <caption>Mean squared error plotted for each of the models tested above.</caption>
-        <image source="msePlot.png" width="50%">
+        <image source="images/msePlot.png" width="50%">
           <description>A horizontal bar chart showing root mean squared error for four models: mode (highest), mean, constant + age, and constant + age + gender (lowest).</description>
         </image>
       </figure>
@@ -188,7 +188,7 @@ NHANES_child %&gt;%
 
     <figure xml:id="fig-bac-rt">
       <caption>Simulated relationship between blood alcohol content and reaction time on a driving test, with best-fitting linear model represented by the line. A: linear relationship with low measurement error. B: linear relationship with higher measurement error. C: Nonlinear relationship with low measurement error and (incorrect) linear model.</caption>
-      <image source="BACrt.png" width="80%">
+      <image source="images/BACrt.png" width="80%">
         <description>Three scatter plots showing different relationships between BAC and reaction time. Panel A shows a tight linear relationship. Panel B shows a linear relationship with more scatter. Panel C shows a curved relationship with a straight line poorly fitting it.</description>
       </image>
     </figure>
@@ -215,7 +215,7 @@ NHANES_child %&gt;%
 
     <figure xml:id="fig-overfitting">
       <caption>An example of overfitting. Both datasets were generated using the same model, with different random noise added to generate each set. The left panel shows the data used to fit the model, with a simple linear fit in blue and a complex (8th order polynomial) fit in red. The root mean square error (RMSE) values for each model are shown in the figure; in this case, the complex model has a lower RMSE than the simple model. The right panel shows the second dataset, with the same model overlaid on it and the RMSE values computed using the model obtained from the first dataset. Here we see that the simpler model actually fits the new dataset better than the more complex model, which was overfitted to the first dataset.</caption>
-      <image source="Overfitting.png" width="80%">
+      <image source="images/Overfitting.png" width="80%">
         <description>Two scatter plots side by side. The left shows original data with blue and red fitted lines. The right shows new data with the same lines overlaid. RMSE values indicate the simple model generalizes better.</description>
       </image>
     </figure>
@@ -251,7 +251,7 @@ NHANES_child %&gt;%
 
     <figure xml:id="fig-min-sse">
       <caption>A demonstration of the mean as the statistic that minimizes the sum of squared errors. Using the NHANES child height data, we compute the mean (denoted by the blue bar). Then, we test a range of possible parameter estimates, and for each one we compute the sum of squared errors for each data point from that value, which are denoted by the black curve. We see that the mean falls at the minimum of the squared error plot.</caption>
-      <image source="MinSSE.png" width="50%">
+      <image source="images/MinSSE.png" width="50%">
         <description>A plot showing sum of squared errors on the y-axis versus test value on the x-axis. A blue vertical line marks the mean, which aligns with the minimum of the curve.</description>
       </image>
     </figure>
@@ -440,7 +440,7 @@ NHANES_child %&gt;%
 
     <figure xml:id="fig-crime-hist">
       <caption>Left: Histogram of the number of violent crimes. The value for CA is plotted in blue. Right: A map of the same data, with number of crimes (in thousands) plotted for each state in color.</caption>
-      <image source="crimeHist.png" width="80%">
+      <image source="images/crimeHist.png" width="80%">
         <description>Left panel shows a histogram with California marked in blue as an outlier. Right panel shows a US map with states colored by crime levels.</description>
       </image>
     </figure>
@@ -451,7 +451,7 @@ NHANES_child %&gt;%
 
     <figure xml:id="fig-pop-vs-crime">
       <caption>Left: A plot of number of violent crimes versus population by state. Right: A histogram of per capita violent crime rates, expressed as crimes per 100,000 people.</caption>
-      <image source="popVsCrime.png" width="80%">
+      <image source="images/popVsCrime.png" width="80%">
         <description>Left panel shows scatter plot of crimes vs population with California marked. Right panel shows histogram of crime rates with California marked.</description>
       </image>
     </figure>
@@ -472,7 +472,7 @@ its crime rate of 396.10 per 100,000 people is a bit above the mean across state
 
     <figure xml:id="fig-crime-z-plot">
       <caption>Scatterplot of original crime rate data against Z-scored data.</caption>
-      <image source="crimeZplot.png" width="50%">
+      <image source="images/crimeZplot.png" width="50%">
         <description>A scatter plot showing a perfect linear relationship between original crime rates and Z-scored crime rates.</description>
       </image>
     </figure>
@@ -483,7 +483,7 @@ its crime rate of 396.10 per 100,000 people is a bit above the mean across state
 
     <figure xml:id="fig-crime-z-map">
       <caption>Crime data rendered onto a US map, presented as Z-scores.</caption>
-      <image source="crimeZmap.png" width="60%">
+      <image source="images/crimeZmap.png" width="60%">
         <description>A US map with states colored according to Z-scored crime rates, showing which states are above or below the mean.</description>
       </image>
     </figure>
@@ -500,7 +500,7 @@ its crime rate of 396.10 per 100,000 people is a bit above the mean across state
 
       <figure xml:id="fig-z-density-cdf">
         <caption>Density (top) and cumulative distribution (bottom) of a standard normal distribution, with cutoffs at one standard deviation above/below the mean.</caption>
-        <image source="zDensityCDF.png" width="60%">
+        <image source="images/zDensityCDF.png" width="60%">
           <description>Two panels showing the density and cumulative distribution function of a standard normal distribution with shaded regions at +/- 1 standard deviation.</description>
         </image>
       </figure>
@@ -511,7 +511,7 @@ its crime rate of 396.10 per 100,000 people is a bit above the mean across state
 
       <figure xml:id="fig-z-density-2sd">
         <caption>Density (top) and cumulative distribution (bottom) of a standard normal distribution, with cutoffs at two standard deviations above/below the mean.</caption>
-        <image source="zDensity2SD.png" width="60%">
+        <image source="images/zDensity2SD.png" width="60%">
           <description>Two panels showing the density and cumulative distribution function of a standard normal distribution with shaded regions at +/- 2 standard deviations.</description>
         </image>
       </figure>
@@ -529,7 +529,7 @@ its crime rate of 396.10 per 100,000 people is a bit above the mean across state
 
       <figure xml:id="fig-std-scores">
         <caption>Crime data presented as standardized scores with mean of 100 and standard deviation of 10.</caption>
-        <image source="stdScores.png" width="50%">
+        <image source="images/stdScores.png" width="50%">
           <description>A histogram of standardized crime scores with California marked, showing the distribution centered at 100.</description>
         </image>
       </figure>
@@ -543,7 +543,7 @@ its crime rate of 396.10 per 100,000 people is a bit above the mean across state
 
       <figure xml:id="fig-crime-type-plot">
         <caption>Plot of violent vs. property crime rates (left) and Z-scored rates (right).</caption>
-        <image source="crimeTypePlot.png" width="80%">
+        <image source="images/crimeTypePlot.png" width="80%">
           <description>Two scatter plots comparing violent and property crime rates. Left shows raw rates, right shows Z-scored rates with California marked in blue.</description>
         </image>
       </figure>
@@ -554,7 +554,7 @@ its crime rate of 396.10 per 100,000 people is a bit above the mean across state
 
       <figure xml:id="fig-crime-type-pop-plot">
         <caption>Left: Plot of violent vs. property crime rates, with population size presented through the size of the plotting symbol; California is presented in blue. Right: Difference scores for violent vs. property crime, plotted against population.</caption>
-        <image source="crimeTypePopPlot.png" width="80%">
+        <image source="images/crimeTypePopPlot.png" width="80%">
           <description>Two panels: left shows Z-scored crime rates with bubble sizes for population, right shows difference scores vs population.</description>
         </image>
       </figure>

@@ -80,7 +80,7 @@ p2 &lt;- tibble(x = normal_data) %&gt;%
     </program>
     <figure xml:id="fig-rng-examples">
       <caption>Examples of random numbers generated from a uniform (left) or normal (right) distribution.</caption>
-      <image source="rngExamples.png" width="80%">
+      <image source="images/rngExamples.png" width="80%">
         <description>Two side-by-side histograms. The left histogram (labeled Uniform) shows a roughly flat distribution of values between 0 and 1, with counts around 100 per bin. The right histogram (labeled Normal) shows a bell-shaped distribution of values centered around 0, with counts highest near the center and tapering off toward -4 and 4.</description>
       </image>
     </figure>
@@ -101,7 +101,7 @@ p2 &lt;- tibble(x = normal_data) %&gt;%
 
     <figure xml:id="fig-finishing-times">
       <caption>Simulated finishing time distributions.</caption>
-      <image source="finishingTimes.png" width="80%">
+      <image source="images/finishingTimes.png" width="80%">
         <description>Three side-by-side histograms labeled 1, 2, and 3, showing the distribution of simulated quiz finishing times for three separate quizzes. Each histogram shows finishing times roughly between 2.5 and 7.5 minutes, with a peak near 5 minutes, consistent with a normal distribution with mean 5 and standard deviation 1.</description>
       </image>
     </figure>
@@ -112,7 +112,7 @@ p2 &lt;- tibble(x = normal_data) %&gt;%
 
     <figure xml:id="fig-finish-time-sim">
       <caption>Distribution of maximum finishing times across simulations.</caption>
-      <image source="finishTimeSim.png" width="50%">
+      <image source="images/finishTimeSim.png" width="50%">
         <description>A histogram showing the distribution of maximum finishing times across 5000 simulated quizzes. The distribution is roughly bell-shaped, centered around 7.5 minutes, with a red vertical line marking the 99th percentile at approximately 8.3 minutes.</description>
       </image>
     </figure>
@@ -142,7 +142,7 @@ p2 &lt;- tibble(x = normal_data) %&gt;%
 
       <figure xml:id="fig-bootstrap-sem">
         <caption>An example of bootstrapping to compute the standard error of the mean adult height in the NHANES dataset. The histogram shows the distribution of means across bootstrap samples, while the red line shows the normal distribution based on the sample mean and standard deviation.</caption>
-        <image source="bootstrapSEM.png" width="50%">
+        <image source="images/bootstrapSEM.png" width="50%">
           <description>A histogram showing the distribution of bootstrap sample means of adult height from the NHANES dataset. The distribution is bell-shaped and centered around 168–170 cm. A red curve showing the theoretical normal distribution is overlaid and closely matches the histogram.</description>
         </image>
       </figure>

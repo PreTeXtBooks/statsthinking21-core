@@ -126,7 +126,7 @@
       </p>
       <figure xml:id="fig-ppv-simulation">
         <caption>A simulation of positive predictive value as a function of statistical power (plotted on the x axis) and prior probability of the hypothesis being true (plotted as separate lines).</caption>
-        <image source="PPVsim.png" width="60%">
+        <image source="images/PPVsim.png" width="60%">
           <description>A line graph showing positive predictive value (PPV) on the y-axis ranging from 0 to 1, and power on the x-axis ranging from 0 to 1. Four lines represent different prior probabilities (0.01, 0.1, 0.5, and 0.9), with higher prior probabilities resulting in higher PPV values.</description>
         </image>
       </figure>
@@ -148,7 +148,7 @@
       </p>
       <figure xml:id="fig-curse-simulation">
         <caption>Left: A simulation of the winner's curse as a function of statistical power (x axis). The solid line shows the estimated effect size, and the dotted line shows the actual effect size. Right: A histogram showing effect size estimates for a number of samples from a dataset, with significant results shown in blue and non-significant results in red.</caption>
-        <image source="CurseSim.png" width="80%">
+        <image source="images/CurseSim.png" width="80%">
           <description>Two panels. Left panel shows a line graph with power on x-axis (0 to 1) and effect size estimate on y-axis, with a solid line showing estimated effect size decreasing as power increases, and a dotted horizontal line at 0.2 showing true effect size. Right panel shows a histogram of effect size estimates, with bars colored by significance status.</description>
         </image>
       </figure>

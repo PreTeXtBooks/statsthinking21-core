@@ -9,7 +9,7 @@
 
     <figure xml:id="fig-srb-leak">
       <caption>An image of the solid rocket booster leaking fuel, seconds before the explosion. The small flame visible on the side of the rocket is the site of the O-ring failure. By NASA (Great Images in NASA Description) [Public domain], via Wikimedia Commons</caption>
-      <image source="Booster_Rocket_Breach_-_GPN-2000-001425.jpg" width="40%">
+      <image source="images/Booster_Rocket_Breach_-_GPN-2000-001425.jpg" width="40%">
         <description>A photograph of the Space Shuttle Challenger's solid rocket booster with a small flame visible on its side, indicating the O-ring failure that led to the explosion</description>
       </image>
     </figure>
@@ -24,7 +24,7 @@
 
     <figure xml:id="fig-challenger-temps">
       <caption>A replotting of Tufte's damage index data. The line shows the trend in the data, and the shaded patch shows the projected temperatures for the morning of the launch.</caption>
-      <image source="challengerTemps.png" width="70%">
+      <image source="images/challengerTemps.png" width="70%">
         <description>A scatter plot showing O-ring damage index versus temperature at launch, with a smoothed trend line showing higher damage at lower temperatures, and a shaded red area around 27.5 degrees showing the forecasted temperature for January 28</description>
       </image>
     </figure>
@@ -67,7 +67,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
     <figure xml:id="fig-plot-height">
       <caption>Four different ways of plotting the difference in height between men and women in the NHANES dataset. Panel A plots the means of the two groups, which gives no way to assess the relative overlap of the two distributions. Panel B shows the same bars, but also overlays the data points, jittering them so that we can see their overall distribution. Panel C shows a violin plot, which shows the distribution of the datasets for each group. Panel D shows a box plot, which highlights the spread of the distribution along with any outliers (which are shown as individual points).</caption>
-      <image source="plotHeight.png" width="80%">
+      <image source="images/plotHeight.png" width="80%">
         <description>A four-panel figure showing height data by gender: Panel A shows bar charts of mean heights, Panel B shows bars with overlaid jittered data points, Panel C shows violin plots displaying the distribution shape, and Panel D shows box plots with medians and outliers</description>
       </image>
     </figure>
@@ -121,7 +121,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
       <figure xml:id="fig-dental-figs">
         <caption>Four different possible presentations of data for the dental health example. Each point in the scatter plot represents one data point in the dataset, and the line in each plot represents the linear trend in the data.</caption>
-        <image source="dentalFigs.png" width="80%">
+        <image source="images/dentalFigs.png" width="80%">
           <description>A four-panel figure showing dental health versus time spent flossing: Panel A shows only a trend line without data points, Panel B shows data points following a very clean linear pattern, Panel C shows realistic messy data with a trend, and Panel D shows data where the trend is driven by a single outlier</description>
         </image>
       </figure>
@@ -177,7 +177,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
       <figure xml:id="fig-data-ink-example">
         <caption>An example of the same data plotted with two different data/ink ratios.</caption>
-        <image source="dataInkExample.png" width="70%">
+        <image source="images/dataInkExample.png" width="70%">
           <description>Two panels showing dental health versus time spent flossing: Panel A has a clean, minimal design with high data/ink ratio, while Panel B has heavy grid lines and visual clutter with low data/ink ratio</description>
         </image>
       </figure>
@@ -215,7 +215,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
       <figure xml:id="fig-chart-junk">
         <caption>An example of chart junk.</caption>
-        <image source="excel_chartjunk.png" width="60%">
+        <image source="images/excel_chartjunk.png" width="60%">
           <description>A bar chart created in Microsoft Excel showing religious affiliation data with excessive 3D effects, decorative graphics overlaid on bars, and a distracting textured background</description>
         </image>
       </figure>
@@ -229,7 +229,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
       <figure xml:id="fig-crime-plot-axes">
         <caption>Crime data from 1990 to 2014 plotted over time. Panels A and B show the same data, but with different ranges of values along the Y axis. Data obtained from https://www.ucrdatatool.gov/Search/Crime/State/RunCrimeStatebyState.cfm</caption>
-        <image source="crimePlotAxes.png" width="70%">
+        <image source="images/crimePlotAxes.png" width="70%">
           <description>Two line graphs showing violent crime per capita over time from 1990 to 2014: Panel A uses a Y-axis range that makes the trend appear flat, while Panel B uses an appropriate range showing a clear decline in crime rates</description>
         </image>
       </figure>
@@ -254,7 +254,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
       <figure xml:id="fig-body-temp-axis">
         <caption>Body temperature over time, plotted with or without the zero point in the Y axis.</caption>
-        <image source="bodyTempAxis.png" width="70%">
+        <image source="images/bodyTempAxis.png" width="70%">
           <description>Two line graphs of body temperature over 40 days: Panel A includes zero on the Y-axis making the temperature variation barely visible, while Panel B focuses on the relevant range (95-105 degrees) showing a clear temperature spike around days 21-30</description>
         </image>
       </figure>
@@ -269,7 +269,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
       <figure xml:id="fig-bar-chart-lie-factor">
         <caption>Two bar charts with associated lie factors.</caption>
-        <image source="barChartLieFactor.png" width="70%">
+        <image source="images/barChartLieFactor.png" width="70%">
           <description>Two bar charts comparing conditions 1 and 2 with values 100 and 95: Panel A shows bars starting at zero with lie factor = 1, while Panel B shows bars with a truncated Y-axis starting at 92.5 with lie factor approximately 2.8, visually exaggerating the difference</description>
         </image>
       </figure>
@@ -290,7 +290,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
       <figure xml:id="fig-bad-colors">
         <caption>Example of a bad figure that relies solely on color contrast.</caption>
-        <image source="badColors.png" width="70%">
+        <image source="images/badColors.png" width="70%">
           <description>A bar chart with a dark background showing grouped bars that differ only in color, making it difficult to distinguish for people with color blindness</description>
         </image>
       </figure>
@@ -301,7 +301,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
       <figure xml:id="fig-pie-chart">
         <caption>An example of a pie chart, highlighting the difficulty in apprehending the relative volume of the different pie slices.</caption>
-        <image source="religion_piechart.png" width="50%">
+        <image source="images/religion_piechart.png" width="50%">
           <description>A 3D pie chart showing religious affiliation data with many small slices, perspective distortion, and a legend separated from the chart, making it very difficult to interpret accurately</description>
         </image>
       </figure>
@@ -316,7 +316,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
       <figure xml:id="fig-religion-bars">
         <caption>A clearer presentation of the religious affiliation data (obtained from http://www.pewforum.org/religious-landscape-study/).</caption>
-        <image source="religionBars.png" width="70%">
+        <image source="images/religionBars.png" width="70%">
           <description>A simple bar chart showing religious affiliation data with bars sorted by percentage, clear labels, and values displayed, making it easy to compare different religions</description>
         </image>
       </figure>
@@ -335,7 +335,7 @@ p3 &lt;- ggplot(NHANES_adult, aes(x=Gender, y=Height)) +
 
     <figure xml:id="fig-gas-prices">
       <caption>The price of gasoline in the US from 1930 to 2013 (obtained from http://www.thepeoplehistory.com/70yearsofpricechange.html) with or without correction for inflation (based on Consumer Price Index).</caption>
-      <image source="gasPrices.png" width="60%">
+      <image source="images/gasPrices.png" width="60%">
         <description>A line graph showing gasoline prices over time from 1930 to 2013 with two lines: one showing unadjusted prices that increase dramatically, and another showing inflation-adjusted prices that remain relatively stable</description>
         </image>
     </figure>

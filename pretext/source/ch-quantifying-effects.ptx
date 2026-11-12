@@ -80,7 +80,7 @@
 
       <figure xml:id="fig-ci-coverage">
         <caption>Samples were repeatedly taken from the NHANES dataset, and the 95% confidence interval of the mean was computed for each sample. Intervals shown in red did not capture the true population mean (shown as the dotted line).</caption>
-        <image source="CIcoverage.png" width="80%">
+        <image source="images/CIcoverage.png" width="80%">
           <description>A plot showing 100 confidence intervals as vertical line segments. Most intervals are shown in one color and a few in red. A horizontal dotted line represents the true population mean. The red intervals are those that did not capture the true mean.</description>
         </image>
       </figure>
@@ -94,7 +94,7 @@
 
       <figure xml:id="fig-ci-sample-size">
         <caption>An example of the effect of sample size on the width of the confidence interval for the mean.</caption>
-        <image source="CISampSize.png" width="50%">
+        <image source="images/CISampSize.png" width="50%">
           <description>A plot showing confidence intervals for different sample sizes. As sample size increases along the x-axis, the error bars (confidence intervals) around each point become progressively narrower.</description>
         </image>
       </figure>
@@ -198,7 +198,7 @@ These values are fairly close to the values obtained using the t distribution ab
 
       <figure xml:id="fig-gender-height-hist">
         <caption>Smoothed histogram plots for male and female heights in the NHANES dataset, showing clearly distinct but also clearly overlapping distributions.</caption>
-        <image source="genderHist.png" width="50%">
+        <image source="images/genderHist.png" width="50%">
           <description>Two density curves showing the distribution of heights for males and females. The male distribution (one color) is shifted to the right compared to the female distribution (another color), but there is substantial overlap between the two distributions.</description>
         </image>
       </figure>
@@ -219,7 +219,7 @@ These values are fairly close to the values obtained using the t distribution ab
 
       <figure xml:id="fig-correlation-examples">
         <caption>Examples of various levels of Pearson's r.</caption>
-        <image source="corrFig.png" width="90%">
+        <image source="images/corrFig.png" width="90%">
           <description>Five scatter plots showing different correlation levels: r=1.00 (perfect positive), r=0.50 (moderate positive), r=0.00 (no correlation), r=-0.50 (moderate negative), and r=-1.00 (perfect negative). Points are more tightly clustered along a line as the absolute value of r approaches 1.</description>
         </image>
       </figure>
@@ -295,7 +295,7 @@ These values are fairly close to the values obtained using the t distribution ab
 
     <figure xml:id="fig-power-simulation">
       <caption>Results from power simulation, showing power as a function of sample size, with effect sizes shown as different colors, and alpha shown as line type. The standard criterion of 80 percent power is shown by the dotted black line.</caption>
-      <image source="plotPowerSim.png" width="60%">
+      <image source="images/plotPowerSim.png" width="60%">
         <description>A line graph showing statistical power (y-axis, 0 to 1) versus sample size per group (x-axis). Multiple lines represent different combinations of effect sizes (shown in different colors) and alpha levels (shown as solid vs dashed lines). A horizontal dotted line marks 0.8 power. Power increases with sample size, with steeper increases for larger effect sizes.</description>
       </image>
     </figure>
